@@ -32,5 +32,3 @@ for path in Pathes:
 # %% crop the image 
 Pathes = glob.glob('Image/*')
 # %%
-for path in Pathes:
-    frames = 
