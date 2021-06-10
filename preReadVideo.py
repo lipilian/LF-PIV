@@ -6,7 +6,7 @@ import os
 import ntpath
 import pims
 # %%
-Pathes = glob.glob('Video/*.mp4')
+Pathes = glob.glob('Video/*0054.mp4')
 ImageFolder = 'Image'
 # %%
 for path in Pathes:
@@ -30,5 +30,5 @@ for path in Pathes:
     vid.release()
 
 # %% crop the image 
-Pathes = glob.glob('Image/*')
+
 # %%

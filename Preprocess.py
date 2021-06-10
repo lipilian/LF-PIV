@@ -17,7 +17,7 @@ import tqdm
 import matplotlib
 #%% get all folder direction
 calibrationFactor = 1
-path = './Image/DSC_0049_RAW'
+path = './Image/DSC_0054_subtrack_Rolling'
 name = os.path.basename(path)
 parPath = os.path.dirname(path)
 SavePath = os.path.join(parPath, name + '_result')
@@ -28,7 +28,7 @@ fileNumber = len(imagenames)
 N = fileNumber
 print('fileNums is {}'.format(fileNumber))
 fps = 30
-startFrame = 532
+startFrame = 932
 DeltaFrame = 6
 frame_a = tools.imread(imagenames[startFrame])
 frame_b = tools.imread(imagenames[startFrame + DeltaFrame])
